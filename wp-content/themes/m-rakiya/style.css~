@@ -1,0 +1,950 @@
+/**
+ * Theme Name:  Rakiya
+ * Theme URI:   http://siteholic.com/rakiya
+ * Description: Rakiya is fully responsive personal WordPress blog theme with minimalistic and fresh design style. Rakiya supports HTML5 and schema.org code, the semantic foundation for SEO best practices.The theme supports all modern browsers and has been tested in Firefox, Chrome, Safari, Opera and Internet Explorer 8, 9 and 10.
+ * Version:     1.0.6
+ * Author:      SiteHolic.com
+ * Author URI:  http://siteholic.com
+ * Tags:       gray, pink, purple, white, light, responsive-layout, one-column, two-columns, left-sidebar, right-sidebar, custom-background, custom-colors, custom-header, custom-menu, flexible-header, translation-ready, holiday, seasonal
+ * Text Domain: rakiya, hybrid-core
+ * License:     GNU General Public License v2.0 or later
+ * License URI: http://www.gnu.org/licenses/gpl-2.0.html
+ */
+
+
+/**
+ * Defaults
+ * --------------------------------------------------------------------------- */
+
+/* === HTML === */
+
+html {}
+
+/* === Body === */
+
+body {
+	line-height: 1.5em;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+/* === Links === */
+
+a {color: #4F2412;}
+
+	a:hover {color: #C9A798;}
+
+/* === Headers === */
+
+h1, h2, h3, h4, h5, h6 {font-family: "Lobster", Georgia, "Times New Roman", Times, serif; color: #000;}
+h1 {}
+
+h2 {}
+
+h3 {}
+
+h4 {}
+
+h5 {}
+
+h6 {}
+
+/* === Blockquotes, quotes, and cites === */
+
+blockquote {}
+
+	blockquote blockquote {}
+
+	blockquote cite {}
+
+/* === Acronyms and abbreviations === */
+
+acronym {}
+
+abbr {}
+
+/* === Code and Preformatted text === */
+
+code {}
+
+pre {}
+
+	pre code {}
+
+/* === <address> tag === */
+
+address {}
+
+/* === Lists === */
+
+ul {}
+
+	ul li {}
+
+ol {}
+
+	ol li {}
+
+dl {}
+
+	dt {}
+
+	dd {}
+
+/* === Tables === */
+
+table {}
+
+	caption {}
+
+	thead {}
+
+	tfoot {}
+
+	tbody {}
+
+	tr {}
+
+	th {}
+
+	td {}
+
+	/* wp-calendar <table> */
+
+	#wp-calendar {font-size: 0.8rem}
+	#wp-calendar td, #wp-calendar th {border: 1px solid #eee; text-align: center; padding: 0;}
+	#wp-calendar caption {font-weight: bold; margin-bottom: 5px;}
+	table#wp-calendar {width: 100%;}
+
+/* === Embeds === */
+
+object {}
+
+embed {}
+
+iframe {}
+
+video {}
+
+/* === Forms === */
+
+form {}
+
+	fieldset {}
+
+		fieldset legend {}
+
+	label {}
+
+	input {    border: 1px solid #e5e5e5;
+    color: #999;
+    padding: 9px 7px;}
+  
+
+		/* Not all types, but these are more common for themes. */
+		input[type="button"] {}
+		input[type="checkbox"] {}
+		input[type="email"] {}
+		input[type="password"] {}
+		input[type="radio"] {}
+		input[type="reset"] {}
+		input[type="search"] {}
+		input[type="submit"] {    letter-spacing: 1px;
+    background: #eee;
+    padding: 10px 20px;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+text-transform: uppercase;}
+		input[type="text"] {}
+		input[type="url"] {}
+		input[type="submit"]:hover, {} 
+		input.search-submit:hover{color: #fff; background: #333;}
+		input[type="search"]:hover {}
+	textarea {    padding: 14px;
+    border: 1px solid #DDD;}
+
+	select {    border: 1px solid #e5e5e5;
+    color: #999;
+    padding: 9px 7px;
+}
+
+		select optgroup {}
+
+		select option {}
+
+	button {}
+
+/* === Alignement (WP classes) === */
+
+.alignleft {}
+
+.alignright {}
+
+.aligncenter {}
+
+.alignnone {}
+
+
+/**
+ * Images
+ * --------------------------------------------------------------------------- */
+figure {max-width: 100%;}
+img {}
+
+	a img {}
+
+/* === WP editor image sizes === */
+
+img.size-thumbnail {}
+
+img.size-medium {}
+
+img.size-large {}
+
+img.size-full {}
+
+/* === Thumbnails === */
+
+.thumbnail {position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 100%; height: auto; }
+
+/* === Captions === */
+
+.wp-caption {}
+
+	.wp-caption img {}
+
+	.wp-caption-text {}
+
+		.wp-caption-text a {}
+		.wp-caption-text a:hover {}
+
+/* === Gallery === */
+
+.gallery {}
+
+	.gallery .gallery-item {}
+
+		.gallery-icon {}
+
+			.gallery .gallery-icon img {}
+
+		.gallery .gallery-caption {}
+
+/* === Avatars === */
+
+.avatar {}
+
+	a .avatar {}
+	a:hover .avatar {}
+
+
+
+
+/* Top Bar */
+#top-bar { 
+	height: 40px;
+	background: #E9E0DB;
+}
+#top-container {
+max-width: 1024px;
+position: relative; 
+margin: 0 auto;
+}
+
+/*Social Networks*/
+#social {
+	position: absolute;
+	right: 0;
+	top:0;
+}
+#social i {
+	padding: 0 2px;
+	line-height: 40px;
+	display: inline-block;
+}
+
+/**
+ * Layout
+ * --------------------------------------------------------------------------- */
+
+	#container {
+		max-width: 1024px;
+		margin: 0 auto;
+	}
+
+		.layout-1c #main {width: 100%;}
+		.layout-2c-l #main {max-width: 68.666%; min-width: 68.666%; float: left; box-shadow:2px 0 2px #B1B1B1; }
+		.layout-2c-l #main:before {}
+		.layout-2c-l .sidebar {max-width: 28.333%; min-width: 28.333%; float: right; padding-left: 3%;}
+
+
+		.layout-2c-r #main {width: 66.666%; float:right; box-shadow:-2px 0 2px #B1B1B1;}
+		.layout-2c-r .sidebar {width: 28.333%; float: left; padding-right: 3%; }
+
+		.layout-3c-l #container {}
+		.layout-3c-r #container {}
+		.layout-3c-c #container {}
+
+
+		#menu-primary {}
+
+		#menu-secondary {}
+		#main:before {
+
+		}
+		#main {background: #fff; ; position: relative; margin-bottom: 30px;}
+
+			#content {padding: 0.5rem 2rem;}
+
+			#sidebar-primary {}
+				#sidebar-primary ul {
+					list-style: none;
+				}
+				#sidebar-primary ul li:before {
+				font-family: 'FontAwesome';
+				content: '\f061';
+				margin:0 10px 0 -15px;
+				font-size: 0.8rem;
+				}
+			#sidebar-secondary {}
+
+		#menu-subsidiary {}
+
+		#sidebar-subsidiary {}
+
+		
+
+/** Article **/
+
+article[id*=post-] {
+    padding: 1rem 0;
+    border-bottom: 1px solid #eee;
+}
+/**
+ * Header
+ * --------------------------------------------------------------------------- */
+
+#header {}
+
+	#branding {float: left; width: 29.333%;text-align: center; padding: 2rem 0;}
+
+
+
+			#site-title a {font-size: 3rem; line-height: 2.6rem;}
+			
+
+		#site-description {font-family: "Trebuchet MS", Helvetica, sans-serif; font-size: 1.15rem; color: #000;}
+
+#header-widget {
+	float: right;
+	width: 66.66%;
+	text-align: center;
+	padding: 2rem 0;
+}
+#header-widget .widget {margin: 0;}
+.archive-header {
+	border-top:1px solid #eee;
+	border-bottom: 1px solid #eee;
+	padding: 20px 0;
+	text-align: center;}
+.archive-description p {
+	margin: 0;
+	}
+h1.archive-title {
+}
+#search-bar {
+	float:	right;
+}
+/**
+ * Menus
+ * --------------------------------------------------------------------------- */
+
+.menu-toggle {}
+
+/* ====== Primary Menu ====== */
+
+#menu-primary { text-transform: uppercase; font-weight: bold; font-size: 0.9rem;}
+
+	#menu-primary .wrap {}
+
+		#menu-primary ul {list-style-type: none; margin: 0; background: #E9E0DB; position: relative;} 
+
+			#menu-primary ul li {  float: left;}
+
+				#menu-primary li a {padding-right: 30px; line-height: 40px; display: block;}
+				#menu-primary li a:hover {}
+		
+			#menu-primary ul li:hover > ul {display: block;}
+
+			#menu-primary ul ul {display: none; z-index: 9999; position: absolute; padding: 5px;}
+			#menu-primary ul ul li  { float: none;	}
+			#menu-primary .sub-menu a {display: block; min-width: 140px; padding-right:0; padding-left: 10px; line-height: 25px; }
+			#menu-primary .sub-menu {    
+				z-index: 99999;
+    -webkit-box-shadow: 0 5px 4px -4px rgba(190,190,190,.1);
+    -moz-box-shadow: 0 5px 4px -4px rgba(190,190,190,.1);
+    box-shadow: 0 5px 4px -4px rgba(190,190,190,.1);}
+    		#menu-primary .sub-menu ul li {float: none; position: }
+			#menu-primary ul ul ul{display: none; position: absolute; margin-left: 150px; margin-top: -24px;}
+			#menu-primary ul ul li:hover > ul {display: block;}
+			
+
+
+
+#menu-primary ul:after {content: ""; clear: both; display: block;}
+li.current-menu-item > a {
+	color: #C9A798;
+}
+/* ====== Secondary Menu ====== */
+
+#menu-secondary {max-width: 1024px;  margin:0; float: right;}
+
+	#menu-secondary .wrap {}
+
+		#menu-secondary ul {list-style: none; margin:0;}
+
+			#menu-secondary ul ul {display: none;}
+
+			#menu-secondary li {display: inline;}
+			#menu-secondary li.current-menu-item {}
+
+				#menu-secondary li a {text-transform: uppercase;}
+				#menu-secondary li a:hover {}
+
+/* ====== Subsidiary Menu ====== */
+
+nav#footer-navigation{ 
+	max-width: 1024px;
+	margin: 0 auto;
+	padding-top: 0.5rem;
+}
+#menu-subsidiary {font-size: .9rem; text-transform: uppercase;}
+
+	#menu-subsidiary .wrap {}
+
+		#menu-subsidiary ul {list-style: none;  margin: 0; padding: 0;}
+			#menu-subsidiary ul ul {display: none;}
+			#menu-subsidiary li {display: inline; float: left; }
+				
+
+				#footer-navigation ul li a {padding: 0 15px; border-right	: 1px solid #d8d8d8;}
+				#footer-navigation ul li a:last-child {}
+				#menu-subsidiary li a:hover {}
+
+/**
+ * Content
+ * --------------------------------------------------------------------------- */
+
+/* ====== BREADCRUMBS ====== */
+
+.breadcrumb-trail {font-family:  "Lobster", Georgia, "Times New Roman", Times, serif; ; padding: 10px;}
+	h2.trail-browse {font-size: 1rem; display: inline;}
+	.breadcrumb-trail ul { list-style: none; display:  inline; margin: 0;}
+	.breadcrumb-trail ul li { display: inline-block; padding: 0 5px;}
+	.breadcrumb-trail ul li:after { content: " >" }
+	.breadcrumb-trail ul li:last-child:after {content: ""}
+
+
+	.breadcrumb-trail .sep {}
+
+	.breadcrumb-trail a {}
+	.breadcrumb-trail a:hover {}
+
+/* ====== POSTS ====== */
+
+.hentry  {}
+.sticky {}
+
+	/* === Post Header === */
+
+	.entry-header {position: relative;}
+
+		.entry-title {padding: 15px 0; text-align: center; font-size: 2.5rem; line-height: 2rem; margin: 0;}
+
+			.entry-title a {color: #000}
+			.entry-title a:hover {}
+
+		.entry-byline {}
+
+			.entry-byline a {}
+			.entry-byline a:hover {}
+
+			.entry-byline .published {}
+			.entry-terms.category {
+				text-transform: uppercase;
+				font-weight: bold;
+				font-size: .9rem;
+				text-align: center;
+				color: #C9A798;
+
+			}
+
+			.entry-terms.category  a {
+				color: #C9A798;
+			}
+			span.entry-terms.category {
+				text-align: center;
+				display: block;
+				padding: 10px 0;
+			}
+time {
+}
+
+    time.comment-published {}
+	/* === Post content and excerpts === */
+
+	.entry-content {}
+
+	.entry-summary {}
+
+	/* === Post Footer === */
+
+	.entry-footer {font-style: italic; font-size: 0.8rem;}
+
+		.entry-meta {}
+
+			.entry-meta a {}
+			.entry-meta a:hover {}
+
+			.entry-meta .published {}
+
+			.entry-meta .category {}
+			.entry-meta .post_tag {}
+
+	/* === Asides === */
+
+	.format-aside {}
+
+		.format-aside .entry-content a.permalink {}
+
+	/* === Chats === */
+
+	.format-chat {}
+
+		.format-chat .chat-row {}
+
+			.format-chat .chat-text {}
+
+			.format-chat cite {}
+
+			.format-chat .chat-speaker-1 {}
+			.format-chat .chat-speaker-2 {}
+			.format-chat .chat-speaker-3 {}
+			.format-chat .chat-speaker-4 {}
+			.format-chat .chat-speaker-5 {}
+			.format-chat .chat-speaker-6 {}
+			.format-chat .chat-speaker-7 {}
+			.format-chat .chat-speaker-8 {}
+			.format-chat .chat-speaker-9 {}
+
+	/* === Links === */
+
+	.format-link {}
+
+		.format-link .entry-title {}
+
+			.format-link .entry-title a {}
+			.format-link .entry-title a:hover {}
+
+				.format-link .entry-title a .meta-nav {}
+
+	/* === Galleries === */
+
+	.format-gallery {}
+
+		.format-gallery .image-count {}
+
+	/* === Quotes === */
+
+	.format-quote {}
+
+		.format-quote blockquote {}
+
+			.format-quote blockquote cite {}
+
+	/* === Status updates === */
+
+	.format-status
+
+		.format-status .avatar {}
+
+	/* === Audio and Video === */
+
+	.format-video {}
+	.format-audio {}
+
+
+/* ====== Attachment Meta (on image attachment pages) ====== */
+
+.attachment-meta {}
+
+	.attachment-meta .image-gallery {}
+
+	.attachment-meta .image-info {}
+
+		.image-info ul {}
+
+			.image-info ul li {}
+
+				.image-info .prep {}
+
+				.image-info .image-data {}
+
+
+/* ====== LOOP META ====== */
+
+.loop-meta {}
+
+	.loop-title {}
+
+	.loop-description {}
+
+/* ====== PAGINATION ====== */
+
+/* === Single posts using <!--nextpage--> === */
+
+.page-links {}
+
+	.page-links .before {}
+
+	.page-links a {}
+	.page-links a:hover {}
+
+/* === Single post navigation (between different posts) === */
+
+.loop-nav { padding:5px 0; text-transform: uppercase; font-size: 0.8rem; border-bottom:1px solid #eee;}
+
+	.loop-nav a {}
+	.loop-nav a:hover {}
+	div.prev{display: inline-block;float: left;}
+	div.next{display: inline-block; float: right; }
+	.loop-nav a[rel="prev"]:before{}}
+
+	.loop-nav a[rel="next"]:before {}
+
+/* === Archive-type pages === */
+
+.nav-links {
+	margin-top: 40px;
+	height: 45px;
+	text-align: center;
+
+}
+	.nav-links a, .nav-links .page-numbers { 
+		background-color: #eee;
+    	border-radius: 3px;
+    	cursor: pointer;
+    	padding: 10px 12px;
+    	color: #000;
+    	text-transform: uppercase;
+    	font-size: .9rem;
+    	letter-spacing: 1px;
+
+	}
+	.nav-links a:hover {
+		background-color: #bbb;
+		color: #fff;	
+	}
+	.loop-pagination .page-numbers {}
+
+	.loop-pagination a.page-numbers {}
+	.loop-pagination a.page-numbers:hover {}
+
+	.page-numbers.current {    
+		background-color: #bbb;
+    	color: #fff;}
+
+/* === Comments pagination === */
+
+.comments-nav {}
+
+	.comments-nav a {}
+	.comments-nav a:hover {}
+
+	.comments-nav .page-numbers {}
+
+/**
+ * Sidebars and widgets
+ * --------------------------------------------------------------------------- */
+
+/* ====== General ====== */
+
+.sidebar {}
+
+	.widget {margin-bottom: 2rem;
+}
+
+		.widget-title {    overflow: hidden;
+    text-align: center;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+		.widget-title span {    position: relative;
+    display: inline-block;}
+		.widget-title>span:before, .widget-title>span:after{    content: "";
+    position: absolute;
+    top: 50%;
+    border-bottom: 1px solid;
+    border-color: #d8d8d8;
+    width: 591px;
+    margin: 0 14px;}
+		}
+
+		.widget-title>span:after { left:100%;}
+		.widget-title>span:before {
+    right: 100%;
+}
+.widget select {width: 100%;}
+
+.widget .search-submit {display: none;}
+.widget .search-field {width: 100%;}
+/* ====== Specific ====== */
+
+#sidebar-primary {}
+
+#sidebar-secondary {}
+
+#sidebar-subsidiary {}
+
+#sidebar-header {}
+
+#sidebar-before-content {}
+
+#sidebar-after-content {}
+
+#sidebar-after-singular {}
+
+
+/**
+ * Comments Template
+ * --------------------------------------------------------------------------- */
+
+#comments-template {margin: 30px 0;}
+
+/* ====== COMMENTS ======= */
+
+#comments {}
+
+	#comments-number {margin-bottom: 30px;}
+
+	/* === Comments closed message === */
+
+	.comments-closed {}
+
+	.comments-closed.pings-open {}
+
+	/* === Comment list === */
+
+	ol.comment-list {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		}
+
+		ol.comment-list ol.children {list-style: none;}
+
+		/* === Individual comments */
+
+		li.comment {}
+
+		li.ping {}
+
+		li.bypostauthor {}
+
+			/* === Avatars === */
+
+			.comment-list .avatar {border-radius: 50%;     float: left;
+    margin-right: 30px; margin-bottom: 10px;}
+
+			/* === Meta === */
+
+			.comment-meta {text-transform: uppercase; letter-spacing: 1px; font-size:0.9rem; padding: 10px 0; }
+
+				.comment-author {}
+
+					.comment-author cite {}
+
+				.comment-meta .published {}
+
+			/* === Comment text/content === */
+
+			.comment-content {font-size: 0.9rem; border-bottom: 1px dotted #eee }
+
+
+			/* === Reply link === */
+
+			.comment-reply-link {}
+			.comment-reply-link:hover {}
+
+			a.comment-permalink {display: none;}
+
+/* ====== RESPOND (COMMENT FORM) ====== */
+
+#respond {margin-top: 30px;}
+
+	#reply-title {}
+
+		#reply-title small {}
+
+	#respond .log-in-out {}
+
+	#respond label {text-transform: uppercase; font-size: 0.9rem; width: 100px; display: inline-block; }
+	#respond p {margin:0 0 0.5rem; font-size: 0.9rem;}
+		#respond label .required {}
+	#respond input {border-radius: 3px;}
+	#respond input[type="text"] {}
+	#respond input[type="text"]:focus {}
+
+	#respond input[type="url"] {}
+	#respond input[type="url"]:focus {}
+
+	#respond input[type="email"] {}
+	#respond input[type="email"]:focus {}
+
+	#respond input[type="submit"] {text-transform: uppercase;
+    letter-spacing: 1px;
+    background: #eee;
+    padding: 12px 19px 14px;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;}
+	#respond input[type="submit"]:focus {}
+	#respond input[type="submit"]:hover {background: #bbb; color: #fff}
+
+	#respond textarea {width: 100%; border-radius: 3px;}
+	#respond textarea:focus {}
+
+
+/**
+ * Footer
+ * --------------------------------------------------------------------------- */
+
+#footer {	
+			 max-width: 1024px;
+			margin: 0 auto;	
+			margin-top: .5rem;
+			padding-top: 0.5rem;
+			border-top: 1px solid #d8d8d8;
+		}
+
+	#footer .copyright {}
+
+	#footer .credit {font-family: "Lobster", Georgia, "Times New Roman", Times, serif; text-align: center; font-size: .9rem; }
+
+	#footer a {}
+	#footer a:hover {}
+
+ * Media Queries
+ * --------------------------------------------------------------------------- */
+
+@media only screen and (max-width: 1024px) {} 
+
+@media only screen and (max-width: 860px) {
+	
+	#top-bar {width: 100%;}
+	#container {width: 100%;}
+	#top-container {width: 100%}
+
+	.layout-2c-l #main, #main {
+			max-width: 100%;
+			float: none;
+		}
+	.layout-2c-r #main, #main {
+			width: 100%;
+			float: none;
+		}
+	#branding {width: 100%; padding: 1rem 0}
+	
+	#sidebar-primary {
+		max-width: 100%;
+		width: 100%;
+		float: none;
+		padding: 0;
+	}
+	#header-widget {float: none; width: 100%; padding: 0;}
+	#header-widget .widget {padding: 10px 0;}
+	.widget {padding: 0 2rem;}
+
+	footer#footer { 
+		width: 100%;
+	}
+	nav#footer-navigation {width: 100%;}
+
+	.breadcrumb-trail {display: none;}
+	.footer-widgets{margin: 1.5em;}
+	.quarter {
+		width: 48%;
+	}
+	.layout-2c-r #container #sidebar-primary {padding-left: 0;}
+	.layout-2c-l #container #sidebar-primary   {padding-right: 0;}
+
+#footer .credit {float: none; text-align: center; padding: 0.5em 0;}
+#menu-footer {float:none; text-align: center; padding: 0.5em 0;}
+}
+@media only screen and (max-width: 768px) {
+	.menu-toggle {
+		position:       relative;
+		display:        inline-block;
+		margin:         0;
+		cursor:         pointer;
+		font-size:      0.8125rem;
+		line-height:    24px;
+		vertical-align: middle;
+	}
+
+	.menu-toggle button {
+		position: relative;
+		top:      7px;
+		left: 15px;
+		right: 0;
+		background: none;
+    	border: none;
+	}
+
+
+	#menu-primary .menu-toggle button {
+
+	}
+
+		#menu-primary .menu-toggle button::before{
+			content:        '\f0c9';
+			display:        inline-block;
+			font-family:    'FontAwesome';
+			font-size:      25px;
+			-webkit-font-smoothing: antialiased;
+		}
+
+		#menu-primary .wrap {display: none;}
+	#menu-primary ul {padding:10px 20px; z-index: 99999; position: relative;}
+	#menu-primary li { width: 100%; display: block; }
+	#menu-primary li a {
+			display:    block;
+			width:      100%;
+			box-sizing: border-box;
+			line-height: 25px;
+			font-size: 1.1rem;
+		}
+	#menu-primary ul ul {display: block; padding: 0px; position: relative;}
+	#menu-primary ul ul ul	 {display: block; margin: 0; padding: 0 10px; position: relative;}
+
+} 
+
+@media only screen and (max-width: 480px) {
+	.quarter{ width: 100%; float: left;}
+	.one-third { width: 200%; float: left;}
+} 
+
+
+
+/**
+ * Clearing Floats
+ * --------------------------------------------------------------------------- */
+
+.entry-content:after,header.comment-meta:after, #top-container:after, .loop-nav:after ,nav#footer-navigation:after, #container:after, #header:after,.clearfix::after {
+	content:    ".";
+	display:    block;
+	height:     0;
+	clear:      both;
+	visibility: hidden;
+}

@@ -1,0 +1,306 @@
+0000.001 (0) Opened log file at time: Thu, 18 Feb 2016 05:15:20 +0000 on http://chin.mlplace.ca
+0000.002 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.11.27 WP: 4.4.2 PHP: 5.6.99-hhvm (Linux server 2.6.32-042stab108.5 #1 SMP Wed Jun 17 20:20:17 MSK 2015 x86_64) MySQL: 5.5.5 Server: nginx/1.9.10 safe_mode: 0 max_execution_time: 900 memory_limit: 17179869184 (used: 2M | 1.4M) multisite: N mcrypt: Y LANG: en_CA.UTF-8 ZipArchive::addFile: Y
+0000.003 (0) Free space on disk containing Updraft's temporary directory: 48838.3 Mb
+0000.005 (0) Tasks: Backup files: 1 (schedule: manual) Backup DB: 1 (schedule: manual)
+0000.007 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.009 (0) Set semaphore last lock (fd) time to 2016-02-18 05:15:20
+0000.010 (0) Semaphore lock (fd) complete
+0000.012 (0) Backup run: resumption=0, nonce=547377410768, begun at=1455772520 (0s ago), job type=backup
+0000.013 (0) Scheduling a resumption (1) after 300 seconds (1455772820) in case this run gets aborted
+0000.015 (0) OpenVZ; reported memory: 512 Mb (will not use BinZip)
+0000.015 (0) Creation of backups of directories: beginning
+0000.017 (0) Beginning creation of dump of plugins (split every: 400 Mb)
+0000.108 (0) Total entities for the zip file: 445 directories, 3033 files (0 skipped as non-modified), 57.9 Mb
+0000.117 (0) Zip: backup_2016-02-17-2215_Chinhama039s_Family_Blog_547377410768-plugins.zip.tmp: 100 files added (on-disk size: 0 Kb)
+0000.122 (0) Zip: backup_2016-02-17-2215_Chinhama039s_Family_Blog_547377410768-plugins.zip.tmp: 200 files added (on-disk size: 0 Kb)
+0000.128 (0) Zip: backup_2016-02-17-2215_Chinhama039s_Family_Blog_547377410768-plugins.zip.tmp: 300 files added (on-disk size: 0 Kb)
+0000.135 (0) Zip: backup_2016-02-17-2215_Chinhama039s_Family_Blog_547377410768-plugins.zip.tmp: 400 files added (on-disk size: 0 Kb)
+0000.142 (0) Zip: backup_2016-02-17-2215_Chinhama039s_Family_Blog_547377410768-plugins.zip.tmp: 500 files added (on-disk size: 0 Kb)
+0000.143 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (6.5 Mb, 3033 files batched, 501 (501) added so far); re-opening (prior size: 0 Kb)
+0000.539 (0) Zip: backup_2016-02-17-2215_Chinhama039s_Family_Blog_547377410768-plugins.zip.tmp: 600 files added (on-disk size: 2250.5 Kb)
+0000.546 (0) Zip: backup_2016-02-17-2215_Chinhama039s_Family_Blog_547377410768-plugins.zip.tmp: 700 files added (on-disk size: 2250.5 Kb)
+0000.553 (0) Zip: backup_2016-02-17-2215_Chinhama039s_Family_Blog_547377410768-plugins.zip.tmp: 800 files added (on-disk size: 2250.5 Kb)
+0000.560 (0) Zip: backup_2016-02-17-2215_Chinhama039s_Family_Blog_547377410768-plugins.zip.tmp: 900 files added (on-disk size: 2250.5 Kb)
+0000.568 (0) Zip: backup_2016-02-17-2215_Chinhama039s_Family_Blog_547377410768-plugins.zip.tmp: 1000 files added (on-disk size: 2250.5 Kb)
+0000.569 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (11 Mb, 3033 files batched, 501 (1002) added so far); re-opening (prior size: 2250.5 Kb)
+0001.407 (0) Zip: backup_2016-02-17-2215_Chinhama039s_Family_Blog_547377410768-plugins.zip.tmp: 1100 files added (on-disk size: 7597.3 Kb)
+0001.416 (0) Zip: backup_2016-02-17-2215_Chinhama039s_Family_Blog_547377410768-plugins.zip.tmp: 1200 files added (on-disk size: 7597.3 Kb)
+0001.425 (0) Zip: backup_2016-02-17-2215_Chinhama039s_Family_Blog_547377410768-plugins.zip.tmp: 1300 files added (on-disk size: 7597.3 Kb)
+0001.436 (0) Zip: backup_2016-02-17-2215_Chinhama039s_Family_Blog_547377410768-plugins.zip.tmp: 1400 files added (on-disk size: 7597.3 Kb)
+0001.446 (0) Zip: backup_2016-02-17-2215_Chinhama039s_Family_Blog_547377410768-plugins.zip.tmp: 1500 files added (on-disk size: 7597.3 Kb)
+0001.447 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (20 Mb, 3033 files batched, 501 (1503) added so far); re-opening (prior size: 7597.3 Kb)
+0003.886 (0) Zip: backup_2016-02-17-2215_Chinhama039s_Family_Blog_547377410768-plugins.zip.tmp: 1600 files added (on-disk size: 16021.3 Kb)
+0003.896 (0) Zip: backup_2016-02-17-2215_Chinhama039s_Family_Blog_547377410768-plugins.zip.tmp: 1700 files added (on-disk size: 16021.3 Kb)
+0003.908 (0) Zip: backup_2016-02-17-2215_Chinhama039s_Family_Blog_547377410768-plugins.zip.tmp: 1800 files added (on-disk size: 16021.3 Kb)
+0003.920 (0) Zip: backup_2016-02-17-2215_Chinhama039s_Family_Blog_547377410768-plugins.zip.tmp: 1900 files added (on-disk size: 16021.3 Kb)
+0003.932 (0) Zip: backup_2016-02-17-2215_Chinhama039s_Family_Blog_547377410768-plugins.zip.tmp: 2000 files added (on-disk size: 16021.3 Kb)
+0003.933 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (11.2 Mb, 3033 files batched, 501 (2004) added so far); re-opening (prior size: 16021.3 Kb)
+0004.849 (0) Zip: backup_2016-02-17-2215_Chinhama039s_Family_Blog_547377410768-plugins.zip.tmp: 2100 files added (on-disk size: 19617.1 Kb)
+0004.863 (0) Zip: backup_2016-02-17-2215_Chinhama039s_Family_Blog_547377410768-plugins.zip.tmp: 2200 files added (on-disk size: 19617.1 Kb)
+0004.876 (0) Zip: backup_2016-02-17-2215_Chinhama039s_Family_Blog_547377410768-plugins.zip.tmp: 2300 files added (on-disk size: 19617.1 Kb)
+0004.889 (0) Zip: backup_2016-02-17-2215_Chinhama039s_Family_Blog_547377410768-plugins.zip.tmp: 2400 files added (on-disk size: 19617.1 Kb)
+0004.902 (0) Zip: backup_2016-02-17-2215_Chinhama039s_Family_Blog_547377410768-plugins.zip.tmp: 2500 files added (on-disk size: 19617.1 Kb)
+0004.903 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (4.1 Mb, 3033 files batched, 501 (2505) added so far); re-opening (prior size: 19617.1 Kb)
+0005.290 (0) Zip: backup_2016-02-17-2215_Chinhama039s_Family_Blog_547377410768-plugins.zip.tmp: 2600 files added (on-disk size: 20879.4 Kb)
+0005.311 (0) Zip: backup_2016-02-17-2215_Chinhama039s_Family_Blog_547377410768-plugins.zip.tmp: 2700 files added (on-disk size: 20879.4 Kb)
+0005.326 (0) Zip: backup_2016-02-17-2215_Chinhama039s_Family_Blog_547377410768-plugins.zip.tmp: 2800 files added (on-disk size: 20879.4 Kb)
+0005.339 (0) Zip: backup_2016-02-17-2215_Chinhama039s_Family_Blog_547377410768-plugins.zip.tmp: 2900 files added (on-disk size: 20879.4 Kb)
+0005.353 (0) Zip: backup_2016-02-17-2215_Chinhama039s_Family_Blog_547377410768-plugins.zip.tmp: 3000 files added (on-disk size: 20879.4 Kb)
+0005.355 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (4.9 Mb, 3033 files batched, 501 (3006) added so far); re-opening (prior size: 20879.4 Kb)
+0005.836 (0) Created plugins zip (0) - 23514.8 Kb in 5.8 s (4041.6 Kb/s) (SHA1 checksum: 208af1f3414bcd2514cd67e835e5ac207427851a)
+0005.838 (0) Beginning creation of dump of themes (split every: 400 Mb)
+0005.866 (0) Total entities for the zip file: 93 directories, 565 files (0 skipped as non-modified), 7.7 Mb
+0005.870 (0) Zip: backup_2016-02-17-2215_Chinhama039s_Family_Blog_547377410768-themes.zip.tmp: 100 files added (on-disk size: 0 Kb)
+0005.874 (0) Zip: backup_2016-02-17-2215_Chinhama039s_Family_Blog_547377410768-themes.zip.tmp: 200 files added (on-disk size: 0 Kb)
+0005.878 (0) Zip: backup_2016-02-17-2215_Chinhama039s_Family_Blog_547377410768-themes.zip.tmp: 300 files added (on-disk size: 0 Kb)
+0005.882 (0) Zip: backup_2016-02-17-2215_Chinhama039s_Family_Blog_547377410768-themes.zip.tmp: 400 files added (on-disk size: 0 Kb)
+0005.887 (0) Zip: backup_2016-02-17-2215_Chinhama039s_Family_Blog_547377410768-themes.zip.tmp: 500 files added (on-disk size: 0 Kb)
+0005.888 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (7.3 Mb, 565 files batched, 501 (501) added so far); re-opening (prior size: 0 Kb)
+0006.302 (0) Created themes zip (0) - 5142.8 Kb in 0.5 s (11120.3 Kb/s) (SHA1 checksum: d5c5580c9915edf7a3048415c1d89293fd2d3aa0)
+0006.303 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone
+0006.304 (0) Looking for candidates to back up in: /var/www/chinhama.mlplace.ca/htdocs/wp-content/uploads
+0006.305 (0) finding files: 2015: adding to list (1)
+0006.306 (0) finding files: wp-statistics: adding to list (2)
+0006.306 (0) finding files: nginx-helper: adding to list (3)
+0006.307 (0) finding files: 2013: adding to list (4)
+0006.307 (0) finding files: 2014: adding to list (5)
+0006.330 (0) finding files: 2016: adding to list (6)
+0006.331 (0) Beginning creation of dump of uploads (split every: 400 Mb)
+0006.350 (0) Total entities for the zip file: 29 directories, 521 files (0 skipped as non-modified), 199.3 Mb
+0006.352 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 Mb added on this batch (27 Mb, 521 files batched, 66 (66) added so far); re-opening (prior size: 0 Kb)
+0007.220 (0) A useful amount of data was added after this amount of zip processing: 1.7 s (normalised: 1.5 s, rate: 16658.1 Kb/s)
+0007.221 (0) Performance is good - will increase the amount of data we attempt to batch (time=1.6599791049957, normalised_time=1.5367944298677, max_time=-1, data points known=0, old_max_bytes=26214400, new_max_bytes=102347065)
+0007.223 (0) Zip: backup_2016-02-17-2215_Chinhama039s_Family_Blog_547377410768-uploads.zip.tmp: 100 files added (on-disk size: 27602.9 Kb)
+0007.227 (0) Zip: backup_2016-02-17-2215_Chinhama039s_Family_Blog_547377410768-uploads.zip.tmp: 200 files added (on-disk size: 27602.9 Kb)
+0007.230 (0) Zip: backup_2016-02-17-2215_Chinhama039s_Family_Blog_547377410768-uploads.zip.tmp: 300 files added (on-disk size: 27602.9 Kb)
+0007.232 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 97.6 Mb added on this batch (98.2 Mb, 521 files batched, 263 (329) added so far); re-opening (prior size: 27602.9 Kb)
+0011.610 (0) A useful amount of data was added after this amount of zip processing: 5.1 s (normalised: 5 s, rate: 19916.1 Kb/s)
+0011.618 (0) Performance is good - will increase the amount of data we attempt to batch (time=5.0506908893585, normalised_time=5.0184625606778, max_time=-1, data points known=0, old_max_bytes=102347065, new_max_bytes=122364645)
+0011.623 (0) Zip: backup_2016-02-17-2215_Chinhama039s_Family_Blog_547377410768-uploads.zip.tmp: 400 files added (on-disk size: 126975.3 Kb)
+0011.627 (0) Zip: backup_2016-02-17-2215_Chinhama039s_Family_Blog_547377410768-uploads.zip.tmp: 500 files added (on-disk size: 126975.3 Kb)
+0015.048 (0) Created uploads zip (0) - 202659.5 Kb in 8.7 s (23251.6 Kb/s) (SHA1 checksum: eacdf690ef7a079d62c01f2d14a66a7a46e2262d)
+0015.049 (0) Beginning backup of other directories found in the content directory (index: 0)
+0015.050 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0015.051 (0) Looking for candidates to back up in: /var/www/chinhama.mlplace.ca/htdocs/wp-content
+0015.051 (0) finding files: index.php: adding to list (1)
+0015.052 (0) finding files: uploads: skipping: this is the uploads directory
+0015.052 (0) finding files: advanced-cache.php: adding to list (2)
+0015.053 (0) finding files: cache: skipping: excluded by options
+0015.053 (0) finding files: ewww: adding to list (3)
+0015.054 (0) finding files: updraft: skipping: this is the updraft directory
+0015.054 (0) finding files: w3tc-config: adding to list (4)
+0015.055 (0) finding files: upgrade: skipping: excluded by options
+0015.055 (0) finding files: db.php: adding to list (5)
+0015.056 (0) finding files: plugins: skipping: this is the plugins directory
+0015.057 (0) finding files: object-cache.php: adding to list (6)
+0015.057 (0) finding files: themes: skipping: this is the themes directory
+0015.060 (0) Total entities for the zip file: 2 directories, 14 files (0 skipped as non-modified), 3.3 Mb
+0015.680 (0) Created others zip (0) - 1586.9 Kb in 0.6 s (2552.5 Kb/s) (SHA1 checksum: 9f14aae8520a9c696c97de02f2ad5cd79576c756)
+0015.683 (0) Saving backup status to database (elements: 8)
+0015.685 (0) Beginning creation of database dump (WordPress DB)
+0015.687 (0) Testing: /usr/bin/mysqldump
+0015.731 (0) Binary mysqldump: error (code: 2)
+0015.771 (0) Table wp_options: Total expected rows (approximate): 306
+0015.803 (0) Table wp_options: Total rows added: 312 in 0.03 seconds
+0015.805 (0) Table wp_options: finishing file (backup_2016-02-17-2215_Chinhama039s_Family_Blog_547377410768-db-table-wp_options.table.gz - 125.9 Kb)
+0015.807 (0) Table wp_users: Total expected rows (approximate): 3
+0015.809 (0) Table wp_users: Total rows added: 3 in 0.00 seconds
+0015.809 (0) Table wp_users: finishing file (backup_2016-02-17-2215_Chinhama039s_Family_Blog_547377410768-db-table-wp_users.table.gz - 0.8 Kb)
+0015.812 (0) Table wp_usermeta: Total expected rows (approximate): 61
+0015.813 (0) Table wp_usermeta: Total rows added: 61 in 0.00 seconds
+0015.814 (0) Table wp_usermeta: finishing file (backup_2016-02-17-2215_Chinhama039s_Family_Blog_547377410768-db-table-wp_usermeta.table.gz - 1.6 Kb)
+0015.816 (0) Table wp_commentmeta: Total expected rows (approximate): 2
+0015.818 (0) Table wp_commentmeta: Total rows added: 2 in 0.00 seconds
+0015.818 (0) Table wp_commentmeta: finishing file (backup_2016-02-17-2215_Chinhama039s_Family_Blog_547377410768-db-table-wp_commentmeta.table.gz - 0.5 Kb)
+0015.821 (0) Table wp_comments: Total expected rows (approximate): 2
+0015.822 (0) Table wp_comments: Total rows added: 2 in 0.00 seconds
+0015.823 (0) Table wp_comments: finishing file (backup_2016-02-17-2215_Chinhama039s_Family_Blog_547377410768-db-table-wp_comments.table.gz - 1 Kb)
+0015.826 (0) Table wp_links: Total expected rows (approximate): 0
+0015.827 (0) Table wp_links: Total rows added: 0 in 0.00 seconds
+0015.828 (0) Table wp_links: finishing file (backup_2016-02-17-2215_Chinhama039s_Family_Blog_547377410768-db-table-wp_links.table.gz - 0.5 Kb)
+0015.830 (0) Table wp_postmeta: Total expected rows (approximate): 565
+0015.837 (0) Table wp_postmeta: Total rows added: 565 in 0.01 seconds
+0015.837 (0) Table wp_postmeta: finishing file (backup_2016-02-17-2215_Chinhama039s_Family_Blog_547377410768-db-table-wp_postmeta.table.gz - 15.3 Kb)
+0015.840 (0) Table wp_posts: Total expected rows (approximate): 170
+0015.855 (0) Table wp_posts: Total rows added: 170 in 0.01 seconds
+0015.857 (0) Table wp_posts: finishing file (backup_2016-02-17-2215_Chinhama039s_Family_Blog_547377410768-db-table-wp_posts.table.gz - 74.2 Kb)
+0015.859 (0) Table wp_term_relationships: Total expected rows (approximate): 60
+0015.861 (0) Table wp_term_relationships: Total rows added: 60 in 0.00 seconds
+0015.862 (0) Table wp_term_relationships: finishing file (backup_2016-02-17-2215_Chinhama039s_Family_Blog_547377410768-db-table-wp_term_relationships.table.gz - 0.6 Kb)
+0015.864 (0) Table wp_term_taxonomy: Total expected rows (approximate): 4
+0015.865 (0) Table wp_term_taxonomy: Total rows added: 4 in 0.00 seconds
+0015.866 (0) Table wp_term_taxonomy: finishing file (backup_2016-02-17-2215_Chinhama039s_Family_Blog_547377410768-db-table-wp_term_taxonomy.table.gz - 0.6 Kb)
+0015.869 (0) Table wp_termmeta: Total expected rows (approximate): 0
+0015.870 (0) Table wp_termmeta: Total rows added: 0 in 0.00 seconds
+0015.871 (0) Table wp_termmeta: finishing file (backup_2016-02-17-2215_Chinhama039s_Family_Blog_547377410768-db-table-wp_termmeta.table.gz - 0.4 Kb)
+0015.874 (0) Table wp_terms: Total expected rows (approximate): 4
+0015.875 (0) Table wp_terms: Total rows added: 4 in 0.00 seconds
+0015.876 (0) Table wp_terms: finishing file (backup_2016-02-17-2215_Chinhama039s_Family_Blog_547377410768-db-table-wp_terms.table.gz - 0.6 Kb)
+0015.879 (0) Table wp_ewwwio_images: Total expected rows (approximate): 503
+0015.884 (0) Table wp_ewwwio_images: Total rows added: 503 in 0.00 seconds
+0015.885 (0) Table wp_ewwwio_images: finishing file (backup_2016-02-17-2215_Chinhama039s_Family_Blog_547377410768-db-table-wp_ewwwio_images.table.gz - 11.5 Kb)
+0015.888 (0) Table wp_statistics_exclusions: Total expected rows (approximate): 0
+0015.889 (0) Table wp_statistics_exclusions: Total rows added: 0 in 0.00 seconds
+0015.890 (0) Table wp_statistics_exclusions: finishing file (backup_2016-02-17-2215_Chinhama039s_Family_Blog_547377410768-db-table-wp_statistics_exclusions.table.gz - 0.4 Kb)
+0015.893 (0) Table wp_statistics_historical: Total expected rows (approximate): 0
+0015.894 (0) Table wp_statistics_historical: Total rows added: 0 in 0.00 seconds
+0015.895 (0) Table wp_statistics_historical: finishing file (backup_2016-02-17-2215_Chinhama039s_Family_Blog_547377410768-db-table-wp_statistics_historical.table.gz - 0.4 Kb)
+0015.898 (0) Table wp_statistics_pages: Total expected rows (approximate): 2
+0015.899 (0) Table wp_statistics_pages: Total rows added: 2 in 0.00 seconds
+0015.900 (0) Table wp_statistics_pages: finishing file (backup_2016-02-17-2215_Chinhama039s_Family_Blog_547377410768-db-table-wp_statistics_pages.table.gz - 0.5 Kb)
+0015.903 (0) Table wp_statistics_search: Total expected rows (approximate): 0
+0015.904 (0) Table wp_statistics_search: Total rows added: 0 in 0.00 seconds
+0015.905 (0) Table wp_statistics_search: finishing file (backup_2016-02-17-2215_Chinhama039s_Family_Blog_547377410768-db-table-wp_statistics_search.table.gz - 0.4 Kb)
+0015.908 (0) Table wp_statistics_useronline: Total expected rows (approximate): 0
+0015.909 (0) Table wp_statistics_useronline: Total rows added: 0 in 0.00 seconds
+0015.910 (0) Table wp_statistics_useronline: finishing file (backup_2016-02-17-2215_Chinhama039s_Family_Blog_547377410768-db-table-wp_statistics_useronline.table.gz - 0.4 Kb)
+0015.912 (0) Table wp_statistics_visit: Total expected rows (approximate): 2
+0015.913 (0) Table wp_statistics_visit: Total rows added: 2 in 0.00 seconds
+0015.914 (0) Table wp_statistics_visit: finishing file (backup_2016-02-17-2215_Chinhama039s_Family_Blog_547377410768-db-table-wp_statistics_visit.table.gz - 0.5 Kb)
+0015.917 (0) Table wp_statistics_visitor: Total expected rows (approximate): 2
+0015.918 (0) Table wp_statistics_visitor: Total rows added: 2 in 0.00 seconds
+0015.919 (0) Table wp_statistics_visitor: finishing file (backup_2016-02-17-2215_Chinhama039s_Family_Blog_547377410768-db-table-wp_statistics_visitor.table.gz - 0.7 Kb)
+0015.921 (0) Table wp_subscribe2: Total expected rows (approximate): 0
+0015.922 (0) Table wp_subscribe2: Total rows added: 0 in 0.00 seconds
+0015.923 (0) Table wp_subscribe2: finishing file (backup_2016-02-17-2215_Chinhama039s_Family_Blog_547377410768-db-table-wp_subscribe2.table.gz - 0.4 Kb)
+0015.927 (0) Table wp_wp_email_capture_registered_members: Total expected rows (approximate): 0
+0015.928 (0) Table wp_wp_email_capture_registered_members: Total rows added: 0 in 0.00 seconds
+0015.929 (0) Table wp_wp_email_capture_registered_members: finishing file (backup_2016-02-17-2215_Chinhama039s_Family_Blog_547377410768-db-table-wp_wp_email_capture_registered_members.table.gz - 0.4 Kb)
+0015.931 (0) Table wp_wp_email_capture_temp_members: Total expected rows (approximate): 0
+0015.932 (0) Table wp_wp_email_capture_temp_members: Total rows added: 0 in 0.00 seconds
+0015.933 (0) Table wp_wp_email_capture_temp_members: finishing file (backup_2016-02-17-2215_Chinhama039s_Family_Blog_547377410768-db-table-wp_wp_email_capture_temp_members.table.gz - 0.4 Kb)
+0015.936 (0) backup_2016-02-17-2215_Chinhama039s_Family_Blog_547377410768-db-table-wp_options.table.gz (1/23): adding to final database dump
+0015.963 (0) backup_2016-02-17-2215_Chinhama039s_Family_Blog_547377410768-db-table-wp_users.table.gz (2/23): adding to final database dump
+0015.965 (0) backup_2016-02-17-2215_Chinhama039s_Family_Blog_547377410768-db-table-wp_usermeta.table.gz (3/23): adding to final database dump
+0015.966 (0) backup_2016-02-17-2215_Chinhama039s_Family_Blog_547377410768-db-table-wp_commentmeta.table.gz (4/23): adding to final database dump
+0015.967 (0) backup_2016-02-17-2215_Chinhama039s_Family_Blog_547377410768-db-table-wp_comments.table.gz (5/23): adding to final database dump
+0015.968 (0) backup_2016-02-17-2215_Chinhama039s_Family_Blog_547377410768-db-table-wp_links.table.gz (6/23): adding to final database dump
+0015.969 (0) backup_2016-02-17-2215_Chinhama039s_Family_Blog_547377410768-db-table-wp_postmeta.table.gz (7/23): adding to final database dump
+0015.977 (0) backup_2016-02-17-2215_Chinhama039s_Family_Blog_547377410768-db-table-wp_posts.table.gz (8/23): adding to final database dump
+0015.993 (0) backup_2016-02-17-2215_Chinhama039s_Family_Blog_547377410768-db-table-wp_term_relationships.table.gz (9/23): adding to final database dump
+0015.994 (0) backup_2016-02-17-2215_Chinhama039s_Family_Blog_547377410768-db-table-wp_term_taxonomy.table.gz (10/23): adding to final database dump
+0015.995 (0) backup_2016-02-17-2215_Chinhama039s_Family_Blog_547377410768-db-table-wp_termmeta.table.gz (11/23): adding to final database dump
+0015.995 (0) backup_2016-02-17-2215_Chinhama039s_Family_Blog_547377410768-db-table-wp_terms.table.gz (12/23): adding to final database dump
+0015.996 (0) backup_2016-02-17-2215_Chinhama039s_Family_Blog_547377410768-db-table-wp_ewwwio_images.table.gz (13/23): adding to final database dump
+0016.002 (0) backup_2016-02-17-2215_Chinhama039s_Family_Blog_547377410768-db-table-wp_statistics_exclusions.table.gz (14/23): adding to final database dump
+0016.003 (0) backup_2016-02-17-2215_Chinhama039s_Family_Blog_547377410768-db-table-wp_statistics_historical.table.gz (15/23): adding to final database dump
+0016.004 (0) backup_2016-02-17-2215_Chinhama039s_Family_Blog_547377410768-db-table-wp_statistics_pages.table.gz (16/23): adding to final database dump
+0016.004 (0) backup_2016-02-17-2215_Chinhama039s_Family_Blog_547377410768-db-table-wp_statistics_search.table.gz (17/23): adding to final database dump
+0016.005 (0) backup_2016-02-17-2215_Chinhama039s_Family_Blog_547377410768-db-table-wp_statistics_useronline.table.gz (18/23): adding to final database dump
+0016.006 (0) backup_2016-02-17-2215_Chinhama039s_Family_Blog_547377410768-db-table-wp_statistics_visit.table.gz (19/23): adding to final database dump
+0016.007 (0) backup_2016-02-17-2215_Chinhama039s_Family_Blog_547377410768-db-table-wp_statistics_visitor.table.gz (20/23): adding to final database dump
+0016.007 (0) backup_2016-02-17-2215_Chinhama039s_Family_Blog_547377410768-db-table-wp_subscribe2.table.gz (21/23): adding to final database dump
+0016.008 (0) backup_2016-02-17-2215_Chinhama039s_Family_Blog_547377410768-db-table-wp_wp_email_capture_registered_members.table.gz (22/23): adding to final database dump
+0016.009 (0) backup_2016-02-17-2215_Chinhama039s_Family_Blog_547377410768-db-table-wp_wp_email_capture_temp_members.table.gz (23/23): adding to final database dump
+0016.010 (0) backup_2016-02-17-2215_Chinhama039s_Family_Blog_547377410768-db.gz: finished writing out complete database file (267.2 Kb)
+0016.013 (0) Total database tables backed up: 23 (backup_2016-02-17-2215_Chinhama039s_Family_Blog_547377410768-db.gz, size: 273698, checksum (SHA1): cd5975db4cfeaffbbb1d876b7c9941933431fb06)
+0016.017 (0) backup_2016-02-17-2215_Chinhama039s_Family_Blog_547377410768-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0016.018 (0) backup_2016-02-17-2215_Chinhama039s_Family_Blog_547377410768-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0016.018 (0) backup_2016-02-17-2215_Chinhama039s_Family_Blog_547377410768-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0016.019 (0) backup_2016-02-17-2215_Chinhama039s_Family_Blog_547377410768-others.zip: others: This file has not yet been successfully uploaded: will queue
+0016.019 (0) backup_2016-02-17-2215_Chinhama039s_Family_Blog_547377410768-db.gz: db: This file has not yet been successfully uploaded: will queue
+0016.020 (0) Saving backup history. Total backup size: 227.7 Mb
+0016.021 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0016.023 (0) Cloud backup selection (1/1): dreamobjects (last)
+0016.024 (0) Beginning dispatch of backup to remote (dreamobjects)
+0016.026 (0) Set endpoint: objects.dreamhost.com
+0016.027 (0) DreamObjects upload (n/a): backup_2016-02-17-2215_Chinhama039s_Family_Blog_547377410768-plugins.zip (chunks: 5) -> dreamobjects://chinhamabak/backup_2016-02-17-2215_Chinhama039s_Family_Blog_547377410768-plugins.zip
+0016.254 (0) DreamObjects chunked upload: got multipart ID: 2~1gsNIsCVNotCnnqPDpj8GxwacDERzIf
+0017.159 (0) Dreamobjects chunked upload: 20 % uploaded (1, cf584be8aa27030b1af369ee0b95ad35)
+0018.078 (0) Dreamobjects chunked upload: 40 % uploaded (2, 3efc446a2b487dd50a6cd45a56c9ae1d)
+0019.002 (0) Dreamobjects chunked upload: 60 % uploaded (3, 610c75b26bae58fd5676dd47ec8147d9)
+0019.792 (0) Dreamobjects chunked upload: 80 % uploaded (4, 4782a642c8308080e7c00710503921d1)
+0020.544 (0) Dreamobjects chunked upload: 100 % uploaded (5, b65a7f91268c58dd1093ec723dd03549)
+0020.546 (0) DreamObjects upload: all chunks uploaded; will now instruct DreamObjects to re-assemble
+0020.861 (0) DreamObjects upload (plugins0): re-assembly succeeded
+0020.863 (0) Recording as successfully uploaded: backup_2016-02-17-2215_Chinhama039s_Family_Blog_547377410768-plugins.zip (531d8b33632793a485d8d114c21689be)
+0020.870 (0) Deleting local file: backup_2016-02-17-2215_Chinhama039s_Family_Blog_547377410768-plugins.zip: OK
+0020.870 (0) DreamObjects upload (n/a): backup_2016-02-17-2215_Chinhama039s_Family_Blog_547377410768-themes.zip (chunks: 2) -> dreamobjects://chinhamabak/backup_2016-02-17-2215_Chinhama039s_Family_Blog_547377410768-themes.zip
+0021.216 (0) DreamObjects chunked upload: got multipart ID: 2~D6bs-K9FFQziBtFVj1n7-0ETCeJunZ-
+0022.060 (0) Dreamobjects chunked upload: 50 % uploaded (1, c0053773d457c259b3c67a27597894f7)
+0022.442 (0) Dreamobjects chunked upload: 100 % uploaded (2, 3d71a7cf1e321cdadeafd084053dc088)
+0022.444 (0) DreamObjects upload: all chunks uploaded; will now instruct DreamObjects to re-assemble
+0022.684 (0) DreamObjects upload (themes0): re-assembly succeeded
+0022.686 (0) Recording as successfully uploaded: backup_2016-02-17-2215_Chinhama039s_Family_Blog_547377410768-themes.zip (e37a7a88467a0cd335b234d89b95f55d)
+0022.688 (0) Deleting local file: backup_2016-02-17-2215_Chinhama039s_Family_Blog_547377410768-themes.zip: OK
+0022.689 (0) DreamObjects upload (n/a): backup_2016-02-17-2215_Chinhama039s_Family_Blog_547377410768-uploads.zip (chunks: 40) -> dreamobjects://chinhamabak/backup_2016-02-17-2215_Chinhama039s_Family_Blog_547377410768-uploads.zip
+0022.907 (0) DreamObjects chunked upload: got multipart ID: 2~vZv4S85qlrYZ2gDfA3UQ_nJFybhLExx
+0023.630 (0) Dreamobjects chunked upload: 2.5 % uploaded (1, 870451adb825365e360ab2d5fd658c1d)
+0024.414 (0) Dreamobjects chunked upload: 5 % uploaded (2, c8ac84604070955758aa061e4723af1a)
+0025.213 (0) Dreamobjects chunked upload: 7.5 % uploaded (3, 5153a02c092814bfcbcda9d177c212d4)
+0026.041 (0) Dreamobjects chunked upload: 10 % uploaded (4, 83364f6dfc7ea1136c30c6536b57e12c)
+0026.908 (0) Dreamobjects chunked upload: 12.5 % uploaded (5, 8629bf3388b6c67c563658cb8043d1e8)
+0027.767 (0) Dreamobjects chunked upload: 15 % uploaded (6, de0deb6c53b6285f19c509a7dbd38bd4)
+0028.452 (0) Dreamobjects chunked upload: 17.5 % uploaded (7, 1fb586971d9e14ebb4a27ffdd56ea4d2)
+0029.305 (0) Dreamobjects chunked upload: 20 % uploaded (8, 678e9080437ae8499347b5d286768baf)
+0030.323 (0) Dreamobjects chunked upload: 22.5 % uploaded (9, 48439ee04b2b5c90551348311c7d1a23)
+0031.239 (0) Dreamobjects chunked upload: 25 % uploaded (10, 5a8e7de29e939c0b4fde3ec047068baf)
+0032.330 (0) Dreamobjects chunked upload: 27.5 % uploaded (11, d5ee2d5f0b10e99029d88bb4be7ab4f9)
+0033.248 (0) Dreamobjects chunked upload: 30 % uploaded (12, f8eab807831ea54e4fe4e47e9c67f970)
+0034.173 (0) Dreamobjects chunked upload: 32.5 % uploaded (13, 16f1b625233a76c4fb6fd5214c2a7956)
+0035.225 (0) Dreamobjects chunked upload: 35 % uploaded (14, 169d315e7654f9a16c6ac071aabb6d79)
+0036.025 (0) Dreamobjects chunked upload: 37.5 % uploaded (15, 99ab3085f312302120f11d124aa45455)
+0036.912 (0) Dreamobjects chunked upload: 40 % uploaded (16, 87d2b75fdf3e20623bf9b8d0f3863ee8)
+0037.799 (0) Dreamobjects chunked upload: 42.5 % uploaded (17, 892ea59b69143bf9709ca715e0a0feb3)
+0038.786 (0) Dreamobjects chunked upload: 45 % uploaded (18, 0eec581b697e817918b9ba5150f562c6)
+0039.719 (0) Dreamobjects chunked upload: 47.5 % uploaded (19, b801040c0079755350bd23db2fafb84d)
+0040.606 (0) Dreamobjects chunked upload: 50 % uploaded (20, 7d3c4a55bbd581c803e677b697d3567a)
+0041.548 (0) Dreamobjects chunked upload: 52.5 % uploaded (21, c0f32c9f2377cf0e160391900d0f78e7)
+0042.380 (0) Dreamobjects chunked upload: 55 % uploaded (22, 006e29f78becb5fedfb84b5ea0e39571)
+0043.326 (0) Dreamobjects chunked upload: 57.5 % uploaded (23, 9287fffd97ed22acfdfafe5c8d184bfe)
+0044.238 (0) Dreamobjects chunked upload: 60 % uploaded (24, fdebc90c98343a9d3269fdcc9162e9b9)
+0045.268 (0) Dreamobjects chunked upload: 62.5 % uploaded (25, 5bc634836f7730f1affb15c06031e29f)
+0046.027 (0) Dreamobjects chunked upload: 65 % uploaded (26, a40abad9ea4d1442650e64e51fcfd265)
+0046.839 (0) Dreamobjects chunked upload: 67.5 % uploaded (27, 324d450fa369b7a5741303bcc4d0f1b1)
+0047.569 (0) Dreamobjects chunked upload: 70 % uploaded (28, 37512c2dc155f1fb9a7a03dea3e3b699)
+0048.332 (0) Dreamobjects chunked upload: 72.5 % uploaded (29, 39c11be14b867517dadac8a0a277f41b)
+0049.323 (0) Dreamobjects chunked upload: 75 % uploaded (30, 78272839cb3ed54a18397166dae8177c)
+0050.204 (0) Dreamobjects chunked upload: 77.5 % uploaded (31, 16ac74a94a11e8e4d019d85602b77ad3)
+0051.080 (0) Dreamobjects chunked upload: 80 % uploaded (32, 221f3eb81ac1fd88fc6fcf5f7167174d)
+0052.107 (0) Dreamobjects chunked upload: 82.5 % uploaded (33, da712c2ae5469e2b4b0f6492de082f52)
+0052.888 (0) Dreamobjects chunked upload: 85 % uploaded (34, debfd78628061c3eb8b6fac99f03501e)
+0053.830 (0) Dreamobjects chunked upload: 87.5 % uploaded (35, fe712ceaa2ed77f605ea2eb0edd6cdda)
+0054.700 (0) Dreamobjects chunked upload: 90 % uploaded (36, 880e8eaf5b4ea9b21bdb112c7bcad769)
+0055.521 (0) Dreamobjects chunked upload: 92.5 % uploaded (37, 398cec91e00f39731769bfa2203f90ed)
+0056.327 (0) Dreamobjects chunked upload: 95 % uploaded (38, fa9e52a73d3e862479ec7a9abc56e945)
+0057.133 (0) Dreamobjects chunked upload: 97.5 % uploaded (39, 3a9210ffac15ddbcdef6e479507056f2)
+0057.826 (0) Dreamobjects chunked upload: 100 % uploaded (40, 24f6c46c518ee3739686831d0a64bb3e)
+0057.829 (0) DreamObjects upload: all chunks uploaded; will now instruct DreamObjects to re-assemble
+0058.301 (0) DreamObjects upload (uploads0): re-assembly succeeded
+0058.303 (0) Recording as successfully uploaded: backup_2016-02-17-2215_Chinhama039s_Family_Blog_547377410768-uploads.zip (876d6bc6aabc01c4d56a09f9200ab598)
+0058.342 (0) Deleting local file: backup_2016-02-17-2215_Chinhama039s_Family_Blog_547377410768-uploads.zip: OK
+0058.344 (0) DreamObjects upload (n/a): backup_2016-02-17-2215_Chinhama039s_Family_Blog_547377410768-others.zip (chunks: 1) -> dreamobjects://chinhamabak/backup_2016-02-17-2215_Chinhama039s_Family_Blog_547377410768-others.zip
+0058.957 (0) DreamObjects regular upload: success
+0058.960 (0) Recording as successfully uploaded: backup_2016-02-17-2215_Chinhama039s_Family_Blog_547377410768-others.zip (1f39fe558992e6883e6ba500c8f2405f)
+0058.963 (0) Deleting local file: backup_2016-02-17-2215_Chinhama039s_Family_Blog_547377410768-others.zip: OK
+0058.963 (0) DreamObjects upload (n/a): backup_2016-02-17-2215_Chinhama039s_Family_Blog_547377410768-db.gz (chunks: 1) -> dreamobjects://chinhamabak/backup_2016-02-17-2215_Chinhama039s_Family_Blog_547377410768-db.gz
+0059.456 (0) DreamObjects regular upload: success
+0059.459 (0) Recording as successfully uploaded: backup_2016-02-17-2215_Chinhama039s_Family_Blog_547377410768-db.gz (fecb02908182cd6b8465de327156d8db)
+0059.461 (0) Deleting local file: backup_2016-02-17-2215_Chinhama039s_Family_Blog_547377410768-db.gz: OK
+0059.463 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0059.464 (0) Number of backup sets in history: 2; groups (db): 1
+0059.465 (0) Examining (for databases) backup set with group_id=0, nonce=547377410768, datestamp=1455772520 (Feb 18 2016 05:15:20)
+0059.465 (0) This backup set is the backup set just made, so will not be deleted.
+0059.469 (0) Examining (for databases) backup set with group_id=0, nonce=66a210184f67, datestamp=1455772430 (Feb 18 2016 05:13:50)
+0059.491 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0059.495 (0) Number of backup sets in history: 2; groups (files): 1
+0059.496 (0) Examining (for files) backup set with nonce=547377410768, datestamp=1455772520 (Feb 18 2016 05:15:20)
+0059.497 (0) This backup set is the backup set just made, so will not be deleted, despite being over the retain limit.
+0059.498 (0) This backup set is the backup set just made, so will not be deleted, despite being over the retain limit.
+0059.498 (0) This backup set is the backup set just made, so will not be deleted, despite being over the retain limit.
+0059.498 (0) This backup set is the backup set just made, so will not be deleted, despite being over the retain limit.
+0059.498 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0059.498 (0) Examining (for files) backup set with nonce=66a210184f67, datestamp=1455772430 (Feb 18 2016 05:13:50)
+0059.513 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0059.514 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0059.517 (0) Resume backup (547377410768, 0): finish run
+0059.522 (0) Decremented the semaphore (fd) by 1
+0059.525 (0) Semaphore (fd) unlocked
+0059.525 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0059.528 (0) No email will/can be sent - the user has not configured an email address.
+0059.528 (0) The backup apparently succeeded and is now complete
+0299.780 (1) Opened log file at time: Thu, 18 Feb 2016 05:20:20 +0000 on http://chin.mlplace.ca
+0299.781 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.11.27 WP: 4.4.2 PHP: 5.6.99-hhvm (Linux server 2.6.32-042stab108.5 #1 SMP Wed Jun 17 20:20:17 MSK 2015 x86_64) MySQL: 5.5.5 Server: nginx/1.9.10 safe_mode: 0 max_execution_time: 900 memory_limit: 17179869184 (used: 2M | 0.9M) multisite: N mcrypt: Y LANG: en_CA.UTF-8 ZipArchive::addFile: Y
+0299.782 (1) Free space on disk containing Updraft's temporary directory: 48837 Mb
+0299.820 (1) Backup run: resumption=1, nonce=547377410768, begun at=1455772520 (300s ago), job type=backup, previous check-in=7.2s
+0299.829 (1) Terminate: This backup job is already finished (2).
