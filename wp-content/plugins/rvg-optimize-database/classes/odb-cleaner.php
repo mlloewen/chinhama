@@ -62,7 +62,8 @@ class ODB_Cleaner
 		/****************************************************************************************
 		 *	DELETE REVISIONS
 		 ****************************************************************************************/
-		if($odb_class->odb_rvg_options['delete_older'] == 'Y' || $odb_class->odb_rvg_options['keep_revisions'] == 'Y')
+		// var_dump($odb_class->odb_rvg_options['rvg_revisions']);
+		if($odb_class->odb_rvg_options['delete_older'] == 'Y' || $odb_class->odb_rvg_options['rvg_revisions'] == 'Y')
 		{
 			// FIND REVISIONS
 			$results_older_than = array();
@@ -71,7 +72,7 @@ class ODB_Cleaner
 			}
 
 			$results_keep_revisions = array();
-			if($odb_class->odb_rvg_options['keep_revisions'] == 'Y')
+			if($odb_class->odb_rvg_options['rvg_revisions'] == 'Y')
 			{	$results_keep_revisions = $this->odb_get_revisions_keep_revisions();
 			}
 		
@@ -124,7 +125,7 @@ class ODB_Cleaner
             
             // NUMBER OF DELETED REVISIONS FOR LOG FILE
             $odb_class->log_arr["revisions"] = $total_deleted;
-		} // if($odb_class->odb_rvg_options['delete_older'] == 'Y' || $odb_class->odb_rvg_options['keep_revisions'] == 'Y')
+		} // if($odb_class->odb_rvg_options['delete_older'] == 'Y' || $odb_class->odb_rvg_options['rvg_revisions'] == 'Y')
 
 	
 		/****************************************************************************************
@@ -662,7 +663,7 @@ class ODB_Cleaner
 			} // for($i=0; $i<count($results); $i++)			
 		} // if($odb_class->odb_rvg_options['delete_older'] == 'Y')
 		
-		if($odb_class->odb_rvg_options['keep_revisions'] == 'Y')
+		if($odb_class->odb_rvg_options['rvg_revisions'] == 'Y')
 		{	// KEEP MAX NUMBER OF REVISIONS
 			$results       = $this->odb_get_revisions_keep_revisions();
 			$max_revisions = $odb_class->odb_rvg_options['nr_of_revisions'];
@@ -713,7 +714,7 @@ class ODB_Cleaner
 		<?php
 				} // if(!$scheduler)
 			} // for($i=0; $i<count($results); $i++)
-		} // if($odb_class->odb_rvg_options['keep_revisions'] == 'Y')
+		} // if($odb_class->odb_rvg_options['rvg_revisions'] == 'Y')
 		
 		return $total_deleted;		
 	} // function odb_delete_revisions()

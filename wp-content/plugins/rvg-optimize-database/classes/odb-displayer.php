@@ -60,7 +60,7 @@ class ODB_Displayer
 		 if($odb_class->odb_rvg_options['delete_older'] == 'Y')
 		 {	echo '<span class="odb-bold">'.__('Delete revisions older than', $odb_class->odb_txt_domain).':</span> <span class="odb-bold odb-blue">'.$odb_class->odb_rvg_options['older_than'].' '.__("days", $odb_class->odb_txt_domain).'</span><br />';
 		 }
-		 if($odb_class->odb_rvg_options['keep_revisions'] == 'Y')
+		 if($odb_class->odb_rvg_options['rvg_revisions'] == 'Y')
 		 {	echo '<span class="odb-bold">'.__('Maximum number of - most recent - revisions to keep per post / page', $odb_class->odb_txt_domain).':</span> <span class="odb-bold odb-blue">'.$odb_class->odb_rvg_options['nr_of_revisions'].'</span><br />';
 		 }
 		 

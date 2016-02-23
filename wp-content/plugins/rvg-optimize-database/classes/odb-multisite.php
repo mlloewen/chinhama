@@ -42,11 +42,12 @@ class ODB_MultiSite
 	{
 		global $odb_class;
 		
+/*		v4.1.3
 		if(is_multisite() &&
 			function_exists('is_plugin_active_for_network') &&
 				is_plugin_active_for_network($odb_class->odb_main_file))
 			return get_site_option($option, $default);
-		else
+		else*/
 			return get_option($option, $default);
 	} // odb_ms_get_option()
 	
@@ -58,12 +59,13 @@ class ODB_MultiSite
 	{
 		// v4.0.2
 		global $odb_class;
-		
+
+/*		v4.1.3
 		if(is_multisite() &&
 			function_exists('is_plugin_active_for_network') &&
 				is_plugin_active_for_network($odb_class->odb_main_file))
 			return update_site_option($option, $value);
-		else
+		else*/
 			return update_option($option, $value);
 	} // odb_ms_update_option()
 
@@ -76,11 +78,12 @@ class ODB_MultiSite
 		// v4.0.2
 		global $odb_class;
 				
+/*		v4.1.3
 		if(is_multisite() &&
 			function_exists('is_plugin_active_for_network') &&
 				is_plugin_active_for_network($odb_class->odb_main_file))
 			return delete_site_option($option);
-		else
+		else*/
 			return delete_option($option);
 	} // odb_ms_delete_option()	
 	

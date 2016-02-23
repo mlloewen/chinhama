@@ -3,7 +3,7 @@
 Plugin Name: MailChimp
 Plugin URI: https://connect.mailchimp.com/integrations/wordpress-list-subscribe-form/
 Description: The MailChimp plugin allows you to quickly and easily add a signup form for your MailChimp list.
-Version: 1.4.3
+Version: 1.4.4
 Author: MailChimp
 Author URI: http://mailchimp.com/
 */
@@ -25,7 +25,7 @@ Author URI: http://mailchimp.com/
 */
 
 // Version constant for easy CSS refreshes
-define('MCSF_VER', '1.4.2');
+define('MCSF_VER', '1.4.4');
 
 // What's our permission (capability) threshold
 define('MCSF_CAP_THRESHOLD', 'manage_options');

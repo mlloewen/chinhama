@@ -13,6 +13,8 @@ if (isset($_POST['info_update']))
 {	// SAVE SETTINGS
 	check_admin_referer('odb_action', 'odb_nonce');	
 
+	// var_dump($_POST);
+
 	$current_datetime = Date('YmdHis');
 	$current_date     = substr($current_datetime, 0, 8);
 	$current_hour     = substr($current_datetime, 8, 2);
@@ -25,8 +27,10 @@ if (isset($_POST['info_update']))
 	if(isset($_POST['rvg_odb_older_than'])) $this->odb_rvg_options['older_than'] = sanitize_text_field($_POST['rvg_odb_older_than']);
 		else $this->odb_rvg_options['older_than'] = '';
 	
-	if(isset($_POST['rvg_odb_keep_revisions'])) $this->odb_rvg_options['keep_revisions'] = sanitize_text_field($_POST['rvg_odb_keep_revisions']);
-		else $this->odb_rvg_options['keep_revisions'] = 'N';
+	if(isset($_POST['rvg_odb_keep_revisions']))
+			$this->odb_rvg_options['rvg_revisions'] = sanitize_text_field($_POST['rvg_odb_keep_revisions']);
+		else
+			$this->odb_rvg_options['rvg_revisions'] = 'N';
 
 	if(isset($_POST['rvg_odb_number'])) $this->odb_rvg_options['nr_of_revisions'] = sanitize_text_field($_POST['rvg_odb_number']);
 		else $this->odb_rvg_options['nr_of_revisions'] = '';
@@ -168,10 +172,33 @@ function rvg_odb_check_form()
 $c = ' checked';
 $d = ' disabled';
 
-$cb_delete_older    = ($this->odb_rvg_options['delete_older']     == "Y") ? $c : '';
-$cb_keep_revisions  = ($this->odb_rvg_options['nr_of_revisions']  != '')  ? $c : '';
-$cb_disabled1       = ($this->odb_rvg_options['delete_older']     != "Y") ? $d : '';
-$cb_disabled2       = ($this->odb_rvg_options['keep_revisions']   != "Y") ? $d : '';
+if($this->odb_rvg_options['delete_older'] == "Y")
+{	// CHECKED
+	$cb_delete_older = $c;
+	$cb_disabled1 = '';
+}
+else
+{	// UNCHECKED
+	$cb_delete_older = '';
+	$this->odb_rvg_options['older_than'] = '';
+	$cb_disabled1 = $d;
+}
+if($this->odb_rvg_options['rvg_revisions'] == "Y")
+{	// CHECKED
+	$cb_keep_revisions = $c;
+	$cb_disabled2 = '';
+}
+else
+{	// UNCHECED
+	$cb_keep_revisions = '';
+	$this->odb_rvg_options['nr_of_revisions'] = '';
+	$cb_disabled2 = $d;
+}
+
+# $cb_delete_older    = ($this->odb_rvg_options['delete_older']     == "Y") ? $c : '';
+# $cb_keep_revisions  = ($this->odb_rvg_options['rvg_revisions']    == "Y") ? $c : '';
+# $cb_disabled1       = ($this->odb_rvg_options['older_than']       != "")  ? $d : '';
+# $cb_disabled2       = ($this->odb_rvg_options['nr_of_revisions']  != "")  ? $d : '';
 $cb_trash           = ($this->odb_rvg_options['clear_trash']      == "Y") ? $c : '';
 $cb_spam            = ($this->odb_rvg_options['clear_spam']       == "Y") ? $c : '';
 $cb_tags            = ($this->odb_rvg_options['clear_tags']       == "Y") ? $c : '';
@@ -206,7 +233,7 @@ echo '
 					<td><input type="text" size="2" name="rvg_odb_older_than" id="rvg_odb_older_than" value="'.$this->odb_rvg_options['older_than'].'" class="odb-bold odb-blue"'.$cb_disabled1.'>&nbsp;&nbsp;'.__("day(s)", $this->odb_txt_domain).'
 					  <script type="text/javascript">
 ';
-if($this->odb_rvg_options['older'] == 'Y') echo 'jQuery("#rvg_odb_older").prop("checked", true)';
+if($this->odb_rvg_options['delete_older'] == 'Y') echo 'jQuery("#rvg_odb_older").prop("checked", true)';
 echo '						
 						jQuery("#rvg_odb_older_than").val("'.$this->odb_rvg_options['older_than'].'");
 					  </script>					  
