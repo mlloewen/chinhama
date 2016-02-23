@@ -24,7 +24,7 @@ CREATE TABLE `wp_statistics_useronline` (
   `version` varchar(255) DEFAULT NULL,
   `location` varchar(10) DEFAULT NULL,
   PRIMARY KEY (`ID`)
-) ENGINE=InnoDB AUTO_INCREMENT=31 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=40 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `wp_statistics_useronline` WRITE;

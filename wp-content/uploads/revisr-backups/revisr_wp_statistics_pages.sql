@@ -26,7 +26,7 @@ CREATE TABLE `wp_statistics_pages` (
 
 LOCK TABLES `wp_statistics_pages` WRITE;
 /*!40000 ALTER TABLE `wp_statistics_pages` DISABLE KEYS */;
-INSERT INTO `wp_statistics_pages` VALUES ('/','2016-02-17',6,441),('/back-home/','2016-02-17',1,408),('/','2016-02-18',2,441),('/','2016-02-19',4,441),('/','2016-02-20',3,441),('/','2016-02-21',1,441);
+INSERT INTO `wp_statistics_pages` VALUES ('/','2016-02-17',6,441),('/back-home/','2016-02-17',1,408),('/','2016-02-18',2,441),('/','2016-02-19',4,441),('/','2016-02-20',3,441),('/','2016-02-21',1,441),('/','2016-02-22',8,441);
 /*!40000 ALTER TABLE `wp_statistics_pages` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;

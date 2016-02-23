@@ -19,12 +19,12 @@ CREATE TABLE `wp_revisr` (
   `event` varchar(42) NOT NULL,
   `user` varchar(60) DEFAULT NULL,
   UNIQUE KEY `id` (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `wp_revisr` WRITE;
 /*!40000 ALTER TABLE `wp_revisr` DISABLE KEYS */;
-INSERT INTO `wp_revisr` VALUES (1,'2016-02-21 15:49:50','Successfully created a new repository.','init','Matthew'),(2,'2016-02-21 15:53:16','Error pushing changes to the remote repository.','error','Matthew'),(3,'2016-02-21 16:03:20','Committed <a href=\"http://chin.mlplace.ca/wp-admin/admin.php?page=revisr_view_commit&commit=01cbb15&success=true\">#01cbb15</a> to the local repository.','commit','Matthew');
+INSERT INTO `wp_revisr` VALUES (1,'2016-02-21 15:49:50','Successfully created a new repository.','init','Matthew'),(2,'2016-02-21 15:53:16','Error pushing changes to the remote repository.','error','Matthew'),(3,'2016-02-21 16:03:20','Committed <a href=\"http://chin.mlplace.ca/wp-admin/admin.php?page=revisr_view_commit&commit=01cbb15&success=true\">#01cbb15</a> to the local repository.','commit','Matthew'),(4,'2016-02-21 16:09:38','Successfully backed up the database.','backup','Matthew'),(5,'2016-02-21 16:09:48','Error pushing changes to the remote repository.','error','Matthew'),(6,'2016-02-21 16:11:38','Error pushing changes to the remote repository.','error','Matthew'),(7,'2016-02-22 20:00:36','Committed <a href=\"http://chin.mlplace.ca/wp-admin/admin.php?page=revisr_view_commit&commit=1f125dd&success=true\">#1f125dd</a> to the local repository.','commit','Matthew');
 /*!40000 ALTER TABLE `wp_revisr` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
